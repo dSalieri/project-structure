@@ -5,12 +5,12 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap);
 @font-face {
   font-family: 'fontello';
-  src: url(/fonts/9dd28f7b2c5fbe5b4676dfcb6dc9aa1c.eot);
-  src: url(/fonts/9dd28f7b2c5fbe5b4676dfcb6dc9aa1c.eot#iefix) format('embedded-opentype'),
-       url(/fonts/0561e12bef9fb768d9f8a8581ff61f2e.woff2) format('woff2'),
-       url(/fonts/614af0d23e8a730d3cab6bd73c06a756.woff) format('woff'),
-       url(/fonts/1bc2c3227b3b95262d0bafda07b27f4a.ttf) format('truetype'),
-       url(/src/assets/fonts/font/fontello.svg#fontello) format('svg');
+  src: url(/admin-panel/fonts/9dd28f7b2c5fbe5b4676dfcb6dc9aa1c.eot);
+  src: url(/admin-panel/fonts/9dd28f7b2c5fbe5b4676dfcb6dc9aa1c.eot#iefix) format('embedded-opentype'),
+       url(/admin-panel/fonts/0561e12bef9fb768d9f8a8581ff61f2e.woff2) format('woff2'),
+       url(/admin-panel/fonts/614af0d23e8a730d3cab6bd73c06a756.woff) format('woff'),
+       url(/admin-panel/fonts/1bc2c3227b3b95262d0bafda07b27f4a.ttf) format('truetype'),
+       url(/admin-panel/src/assets/fonts/font/fontello.svg#fontello) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1190,7 +1190,7 @@ body {
   margin-top: -9px;
   height: 18px;
   width: 6px;
-  background: url(/src/components/double-slider/range-thumb-icon.svg) left center no-repeat;
+  background: url(/admin-panel/src/components/double-slider/range-thumb-icon.svg) left center no-repeat;
   background-size: cover;
   cursor: grab;
 }
@@ -1315,11 +1315,11 @@ body {
 }
 
 .notification.notification_success .notification__content:after {
-  background: url(/src/components/notification/icon-circle-check.svg) center no-repeat;
+  background: url(/admin-panel/src/components/notification/icon-circle-check.svg) center no-repeat;
 }
 
 .notification.notification_error .notification__content:after {
-  background: url(/src/components/notification/icon-error.svg) center no-repeat;
+  background: url(/admin-panel/src/components/notification/icon-error.svg) center no-repeat;
 }
 
 .notification__content a {
@@ -1361,7 +1361,7 @@ body {
   border: 1px solid var(--grey-light);
   border-radius: 4px;
   outline: none;
-  background: var(--white) url(/src/components/range-picker/calendar-icon.svg) 16px center no-repeat;
+  background: var(--white) url(/admin-panel/src/components/range-picker/calendar-icon.svg) 16px center no-repeat;
   background-size: 18px 18px;
 }
 
@@ -1452,7 +1452,7 @@ body {
   justify-content: center;
   cursor: pointer;
   transition: 0.3s all;
-  background: url(/src/components/range-picker/angle-arrow-icon.svg) left center no-repeat;
+  background: url(/admin-panel/src/components/range-picker/angle-arrow-icon.svg) left center no-repeat;
   background-size: 9px 13px;
 }
 
@@ -1658,7 +1658,7 @@ body {
   left: 0;
   width: 100%;
   height: 113px;
-  background: url(/src/components/column-chart/charts-skeleton.svg) center no-repeat;
+  background: url(/admin-panel/src/components/column-chart/charts-skeleton.svg) center no-repeat;
   background-size: cover;
   display: block;
 }
@@ -2133,12 +2133,12 @@ button.is-loading::before {
 }
 
 .button-primary.is-loading::before {
-  background: url(/src/components/product-form/icon-loading-circle-white.svg) center no-repeat;
+  background: url(/admin-panel/src/components/product-form/icon-loading-circle-white.svg) center no-repeat;
   background-size: cover;
 }
 
 .button-primary-outline.is-loading::before {
-  background: url(/src/components/product-form/icon-loading-circle-blue.svg) center no-repeat;
+  background: url(/admin-panel/src/components/product-form/icon-loading-circle-blue.svg) center no-repeat;
   background-size: cover;
 }
 
